@@ -8,5 +8,10 @@ export default function Home() {
     <div className={styles.page}>
       <LoginPage />
     </div>
+    <div className={styles.page}>
+      <Button name={"Login in"} />
+    </div>
+    </>
+  
   );
 }
