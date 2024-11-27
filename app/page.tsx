@@ -1,14 +1,12 @@
+'use client'
 import Image from "next/image";
 import styles from "./page.module.css";
-import Button from "./components/Button/Button";
-import LoginComponents from "./components/LoginComponents/LoginComponents";
-
+import LoginPage from "./components/LoginPage/LoginPage";
 
 export default function Home() {
   return (
-    <>
-    <div className={styles.input}>
-      <LoginComponents/>
+    <div className={styles.page}>
+      <LoginPage />
     </div>
     <div className={styles.page}>
       <Button name={"Login in"} />
