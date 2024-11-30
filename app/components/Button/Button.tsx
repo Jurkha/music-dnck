@@ -1,12 +1,9 @@
 import styles from './Button.module.scss'
 
-type Props= {
-    name:string,
-}
-const Button= (props:Props)=> {
-    return(
-            <button className={styles.button}>{props.name}</button>
+const Button = () => {
+    return (
+        <button className={styles.button}>Log In</button>
     )
 }
 
-export default Button
+export default Button;

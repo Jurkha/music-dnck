@@ -1,14 +1,16 @@
+import Button from '../Button/Button';
 import styles from './LoginComponents.module.scss'
 
 const LoginComponents = () => {
     return (
 
         <div className={styles.container}>
-            <span>Email</span>
+            <span className={styles.email}>Email</span>
             <input type="text" className={styles.input} placeholder='Enter your E-mail' />
-            <span>Pasword</span>
+            <span className={styles.password}>Password</span>
             <input type="text" className={styles.input} placeholder='Enter Your Password'/>
+            <Button />
         </div>
     )
 }
-export default LoginComponents
+export default LoginComponents;

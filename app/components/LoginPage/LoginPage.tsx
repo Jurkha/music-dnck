@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from './LoginPage.module.scss'
+import LoginComponents from '../LoginComponents/LoginComponents';
 
 const LoginPage = () => {
     return (
@@ -16,7 +17,7 @@ const LoginPage = () => {
                         alt='' />
                     <div className={styles.login}>
                         <span className={styles.page}>Log in <span className={styles.dnck}>DNCK.</span></span>
-                        <span className={styles.email}>Email</span>
+                        <LoginComponents/>
                     </div>
                 </div>
             </div>

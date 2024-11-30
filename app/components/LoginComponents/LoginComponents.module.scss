@@ -1,16 +1,35 @@
+.email {
+    color: var(--Primary-White, #F2F2F2);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+.password {
+    color: var(--Primary-White, #F2F2F2);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
 .input{
-    color: white;
-    width: 100%;
+    width: 500px;
+    height: 65px;
+    padding: 24px;
+    color: #FFF;
     border-radius: 12px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    height: 50px;
-    
+    border: 1px solid var(--Stroke_Disable_Dark, #474747);
+    background: var(--Primary-Black, #171C26);
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
 }
