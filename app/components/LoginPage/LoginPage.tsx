@@ -10,11 +10,9 @@ const LoginPage = () => {
                     <span>LOGO</span>
                 </div>
                 <div className={styles.main}>
-                    <Image
-                        src={'./Remove-bg 1.svg'}
-                        width={644}
-                        height={575}
-                        alt='' />
+                        <div className={styles.photo}>
+
+                        </div>
                     <div className={styles.login}>
                         <span className={styles.page}>Log in <span className={styles.dnck}>DNCK.</span></span>
                         <LoginComponents/>
