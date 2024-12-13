@@ -79,6 +79,10 @@
         flex-direction: column;
     }
 
+    .logo {
+        display: none;
+    }
+
     .photo {
         max-width: 223px;
         width: 100%;
@@ -103,6 +107,10 @@
     .main {
         flex-direction: column;
         background: var(--Primary-Black, #171C26);
+    }
+
+    .logo {
+        display: none;
     }
 
     .photo {
